@@ -3,11 +3,14 @@
 
 This package is a simple clone of the simonlast/node-persist registry as existing at version 0.0.12
 
-The package has been re-named to appear in npm as node-persist-legacy.
+The package has been re-named to appear in npm as node-persist-legacy-v0.0.12 .
 
 The purpose is to allow loading of both this "old" node-persist alongside a more "modern" version - e.g., 3.0.0
 
 This is to be used for code transition purposes. I.e., as the database in the "modern" and "old" versions are not compatible, if an "old" database is detected, read each of its values and store in a "new" version of the database.
+
+Text Below is from the Original V0.0.12 README
+
 
 
 ### Super-easy (and fast) persistent data structures in Node.js, modeled after HTML5 localStorage
