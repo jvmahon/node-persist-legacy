@@ -1,5 +1,5 @@
 {
-  "name": "node-persist",
+  "name": "node-persist-legacy",
   "version": "0.0.12",
   "description": "Super-easy (and fast) persistent data structures in Node.js, modeled after HTML5 localStorage",
   "main": "./src/node-persist.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/simonlast/node-persist"
+    "url": "https://github.com/jvmahon/node-persist-legacy"
   },
   "keywords": [
     "node",
