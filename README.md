@@ -1,6 +1,15 @@
 # node-persist
 ## (localStorage on the server)
 
+This package is a simple clone of the simonlast/node-persist registry as existing at version 0.0.12
+
+The package has been re-named to appear in npm as node-persist-legacy.
+
+The purpose is to allow loading of both this "old" node-persist alongside a more "modern" version - e.g., 3.0.0
+
+This is to be used for code transition purposes. I.e., as the database in the "modern" and "old" versions are not compatible, if an "old" database is detected, read each of its values and store in a "new" version of the database.
+
+
 ### Super-easy (and fast) persistent data structures in Node.js, modeled after HTML5 localStorage
 Node-persist doesn't use a database. Instead, JSON documents are stored in the file system for persistence. Because there is no network overhead and your data is just in-memory, node-persist is just about as fast as a database can get. Node-persist uses the HTML5 localStorage API, so it's easy to learn.
 
