@@ -3,7 +3,7 @@
 
 This package is a simple clone of the simonlast/node-persist registry as existing at version 0.0.12
 
-The package has been re-named to appear in npm as node-persist-legacy-v0.0.12 .
+The package has been re-named to appear in npm as node-persist-legacy.
 
 The purpose is to allow loading of both this "old" node-persist alongside a more "modern" version - e.g., 3.0.0
 
